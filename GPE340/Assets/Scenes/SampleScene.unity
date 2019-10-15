@@ -170,6 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   speed: 3.5
+  turnSpeed: 100
   mouseCamera: {fileID: 963194227}
 --- !u!4 &628850893 stripped
 Transform:
@@ -280,11 +281,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: exo_red
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 4f5acd25ed17fd6469b7773aa4e95a1d,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: dd3530556e3bf84449bfae861d7736e5, type: 2}
     - target: {fileID: -4216859302048453862, guid: 4f5acd25ed17fd6469b7773aa4e95a1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -340,6 +336,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 4f5acd25ed17fd6469b7773aa4e95a1d,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: dd3530556e3bf84449bfae861d7736e5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f5acd25ed17fd6469b7773aa4e95a1d, type: 3}
 --- !u!1 &963194225
@@ -558,7 +559,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: bbee3ec0c1e66dc4a9bc261afd9e7b67, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
